@@ -1,0 +1,2 @@
+﻿  stdafx.cpp
+D:\임진성\c++\딱다구리(임진성,김형민,이인준) - 캐릭터레이드\캐릭터레이드\Base_3D\stdafx.h(12,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory

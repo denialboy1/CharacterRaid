@@ -1,0 +1,1011 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\GameObjects">
+      <UniqueIdentifier>{f6026a6f-0543-4c8f-bc60-4812fd3ec48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Utils">
+      <UniqueIdentifier>{0e0d8825-c5d5-42a0-8a19-886d350a8a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Utils">
+      <UniqueIdentifier>{9ddc65c8-8127-463f-a728-d1c24be540bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework">
+      <UniqueIdentifier>{87f64a0f-7d30-41f2-b582-8f6d3de91a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Framework">
+      <UniqueIdentifier>{59d7049c-9ca4-48ab-a752-98d4e433a4fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Managers">
+      <UniqueIdentifier>{74e7ccb5-f87f-4234-b212-f629ee3d8608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Managers">
+      <UniqueIdentifier>{73c83be0-a7a8-444f-bd3b-b00274cd7d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Action">
+      <UniqueIdentifier>{8a462c82-38f2-4662-8010-c86283310c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Action">
+      <UniqueIdentifier>{32da430a-9ccd-416a-b7e8-a2da35115cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI">
+      <UniqueIdentifier>{10b6e5e5-105c-45dd-ac65-052bf3961144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\UI">
+      <UniqueIdentifier>{71a7d80d-6150-4878-aad6-7544520bea99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\GameObjects">
+      <UniqueIdentifier>{b57869b9-d7a6-4600-91de-0d0017caba2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Mesh">
+      <UniqueIdentifier>{d79180dd-f245-42a4-9930-624525ebe93e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Mesh">
+      <UniqueIdentifier>{365f255b-8deb-42bf-a2d2-a8d14b7ac4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\GameState">
+      <UniqueIdentifier>{0b71b52a-55ab-4506-96fc-8ac3d503e36a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameState">
+      <UniqueIdentifier>{76d255f0-1d10-4015-8810-9de2c13c06c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Particle">
+      <UniqueIdentifier>{a79da5b1-05e1-486f-a28c-dfe87160942a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Particle">
+      <UniqueIdentifier>{79eda225-6828-41fd-8b74-793305748b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit">
+      <UniqueIdentifier>{9e22281c-82a0-4c71-bedb-96c76ea26d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Character">
+      <UniqueIdentifier>{4fb3aeff-5856-4722-97d1-4430e0682de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Boss">
+      <UniqueIdentifier>{8d6472d8-dd54-434a-a58e-3f646301cb5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Monster">
+      <UniqueIdentifier>{36415eb9-0086-4bff-82e7-0a82492fd5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Unit">
+      <UniqueIdentifier>{4b6c7589-23e5-493d-8dee-16b3a83da450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Unit\Character">
+      <UniqueIdentifier>{983074f1-95b3-44c3-a451-71b8119f3390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Unit\Boss">
+      <UniqueIdentifier>{6ca0c30c-1cb7-42a9-b043-6116e13114e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Unit\Monster">
+      <UniqueIdentifier>{36d6e0ff-3d30-46c1-82b5-29e9578bc2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Character\Jaina">
+      <UniqueIdentifier>{d6b69489-2477-46c3-9105-75ec58796702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Character\Jaina\Skill">
+      <UniqueIdentifier>{7adaddd8-ec64-48da-899c-b4ec65dd2c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Unit\Character\Jaina">
+      <UniqueIdentifier>{71bd194a-4930-46a6-9214-7bb228c1da23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Unit\Character\Jaina\SKill">
+      <UniqueIdentifier>{27afc624-5e8c-4b7b-be79-310a9c5f5ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Unit\Monster\Skill">
+      <UniqueIdentifier>{f02b3cc8-b7ac-48a7-a188-97fd4beb7867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Unit\Character\Nova">
+      <UniqueIdentifier>{0b3a0c67-fa69-49ae-8e9d-da4f3aa0d542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Character\Nova">
+      <UniqueIdentifier>{d6bc3a05-8ffd-411e-8444-7816179d0269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Effect">
+      <UniqueIdentifier>{7f89c32c-7229-4d2b-bc58-5cc74e2806eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Effect">
+      <UniqueIdentifier>{e0b0cd83-8479-4c93-9205-8d85437fa51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Stage">
+      <UniqueIdentifier>{dfad842d-8e10-4cfe-8be2-92e1a89f1187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Stage">
+      <UniqueIdentifier>{24e86c9a-d2fd-42b5-819c-36f34e03bafb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Character\Johanna">
+      <UniqueIdentifier>{db25e138-ac70-4f79-8dc2-fc8d38fddd85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Unit\Character\Johanna">
+      <UniqueIdentifier>{b12a21f5-ac2d-4fe1-ab54-79ff4a6f6ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Unit\Character\Nova\Skill">
+      <UniqueIdentifier>{534c0431-f0f0-4ec6-91a4-4837dfa392c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Character\Nova\Skill">
+      <UniqueIdentifier>{0033562f-27d2-4062-8215-c835d11b92d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Unit\Boss\Kealthas">
+      <UniqueIdentifier>{66a7a49a-1c3d-41ec-97bd-477b0c175be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Boss\Kealthas">
+      <UniqueIdentifier>{83dc0888-5696-45b3-b85e-f5918fee9a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Character\Johanna\Skill">
+      <UniqueIdentifier>{c48bf1d4-2624-48f8-8e51-838d4a4999f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Unit\Character\Johanna\Skill">
+      <UniqueIdentifier>{36b5228b-4e24-41d8-a749-2998e98545c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Boss\Kealthas\Skill">
+      <UniqueIdentifier>{486104bb-c0a4-4851-b94a-22dbd45e25fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Unit\Boss\Kealthas\Skill">
+      <UniqueIdentifier>{de629ef6-cf93-4106-9226-aa87a04d9273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Shop">
+      <UniqueIdentifier>{765c59ea-b9ca-43fc-b16a-8ea743824613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shop">
+      <UniqueIdentifier>{5aab9b87-7d7d-448b-8d5c-3d74f5a5bfbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>소스 파일\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionMove.cpp">
+      <Filter>소스 파일\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionSequence.cpp">
+      <Filter>소스 파일\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Base.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Image.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Manager.cpp">
+      <Filter>소스 파일\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Button.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Text.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Functions.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>소스 파일\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Quest.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestNode.cpp">
+      <Filter>소스 파일\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>소스 파일\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>소스 파일\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PathNode.cpp">
+      <Filter>소스 파일\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Barricade.cpp">
+      <Filter>소스 파일\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinder.cpp">
+      <Filter>소스 파일\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLoader.cpp">
+      <Filter>소스 파일\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="AseLoader.cpp">
+      <Filter>소스 파일\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="AseFrame.cpp">
+      <Filter>소스 파일\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomUtil.cpp">
+      <Filter>소스 파일\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.cpp">
+      <Filter>소스 파일\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjFileGroup.cpp">
+      <Filter>소스 파일\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider_Sphere.cpp">
+      <Filter>소스 파일\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider_Box.cpp">
+      <Filter>소스 파일\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>소스 파일\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightMap.cpp">
+      <Filter>소스 파일\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshManager.cpp">
+      <Filter>소스 파일\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AllocateHierarchy.cpp">
+      <Filter>소스 파일\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMesh.cpp">
+      <Filter>소스 파일\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumCulling.cpp">
+      <Filter>소스 파일\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle_Snow.cpp">
+      <Filter>소스 파일\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle_Base.cpp">
+      <Filter>소스 파일\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle_Fireworks.cpp">
+      <Filter>소스 파일\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_DX_Base.cpp">
+      <Filter>소스 파일\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramid.cpp">
+      <Filter>소스 파일\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>소스 파일\Unit\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_Stage3.cpp">
+      <Filter>소스 파일\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_GameOver.cpp">
+      <Filter>소스 파일\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_Opening.cpp">
+      <Filter>소스 파일\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_Shop.cpp">
+      <Filter>소스 파일\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_Stage1.cpp">
+      <Filter>소스 파일\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_Stage2.cpp">
+      <Filter>소스 파일\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>소스 파일\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardManager.cpp">
+      <Filter>소스 파일\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="jaina.cpp">
+      <Filter>소스 파일\Unit\Character\Jaina</Filter>
+    </ClCompile>
+    <ClCompile Include="IceFire.cpp">
+      <Filter>소스 파일\Unit\Character\Jaina\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="IceMake.cpp">
+      <Filter>소스 파일\Unit\Character\Jaina\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Ice.cpp">
+      <Filter>소스 파일\Unit\Character\Jaina\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillObject.cpp">
+      <Filter>소스 파일\Unit\Character\Jaina\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillManager.cpp">
+      <Filter>소스 파일\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionRotate.cpp">
+      <Filter>소스 파일\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="IceWorld.cpp">
+      <Filter>소스 파일\Unit\Character\Jaina\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>소스 파일\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Billboard.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="unit.cpp">
+      <Filter>소스 파일\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Marine.cpp">
+      <Filter>소스 파일\Unit\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="cOBB.cpp">
+      <Filter>소스 파일\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="IceImpact.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="IceCircle.cpp">
+      <Filter>소스 파일\Unit\Character\Jaina\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="IceCircleMagic.cpp">
+      <Filter>소스 파일\Unit\Character\Jaina\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>소스 파일\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StructureObject.cpp">
+      <Filter>소스 파일\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="johanna.cpp">
+      <Filter>소스 파일\Unit\Character\Johanna</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>소스 파일\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>소스 파일\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Nova.cpp">
+      <Filter>소스 파일\Unit\Character\Nova</Filter>
+    </ClCompile>
+    <ClCompile Include="NuClear.cpp">
+      <Filter>소스 파일\Unit\Character\Nova\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Phoenix.cpp">
+      <Filter>소스 파일\Unit\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Phoenix_Circle.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Kealthas.cpp">
+      <Filter>소스 파일\Unit\Boss\Kealthas</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBall.cpp">
+      <Filter>소스 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBallFire.cpp">
+      <Filter>소스 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="FireCircleExplosion.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="PillarOfFire.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="FireCircle.cpp">
+      <Filter>소스 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="FireCircleWorld.cpp">
+      <Filter>소스 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Azmodan.cpp">
+      <Filter>소스 파일\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="HitSphere.cpp">
+      <Filter>소스 파일\Unit\Character\Johanna\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="HitSphereMake.cpp">
+      <Filter>소스 파일\Unit\Character\Johanna\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="FireArrow.cpp">
+      <Filter>소스 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="FireArrowWorld.cpp">
+      <Filter>소스 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire_Shield.cpp">
+      <Filter>소스 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>소스 파일\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="UsedItemTab.cpp">
+      <Filter>소스 파일\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="Score_UI.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ArtifactTab.cpp">
+      <Filter>소스 파일\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillTab.cpp">
+      <Filter>소스 파일\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="SupportSkillTap.cpp">
+      <Filter>소스 파일\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="StateTab.cpp">
+      <Filter>소스 파일\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeTab.cpp">
+      <Filter>소스 파일\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="iniDataManager.cpp">
+      <Filter>소스 파일\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>소스 파일\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="minionHpBar.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Opening_UI.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="bossBar.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Burn.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_Select.cpp">
+      <Filter>소스 파일\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="Select_UI.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>소스 파일\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_Loading1.cpp">
+      <Filter>소스 파일\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Loading.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Interface.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="NuclearExplosion.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="VikingEnemy.cpp">
+      <Filter>소스 파일\Unit\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="HammerBoss.cpp">
+      <Filter>소스 파일\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="bigMissile.cpp">
+      <Filter>소스 파일\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_Loading2.cpp">
+      <Filter>소스 파일\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_Loading3.cpp">
+      <Filter>소스 파일\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="CalcScore.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FireArrowEffect.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="IceEffect.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BossDeath.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="characterDeath.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Battlecruiser.cpp">
+      <Filter>소스 파일\Unit\Character\Nova\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleCruiserBoom.cpp">
+      <Filter>소스 파일\Unit\Character\Nova\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="NovaNomalAttack.cpp">
+      <Filter>소스 파일\Unit\Character\Nova\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkBall.cpp">
+      <Filter>소스 파일\Unit\Character\Johanna</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkBallFire.cpp">
+      <Filter>소스 파일\Unit\Character\Johanna</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkCircle.cpp">
+      <Filter>소스 파일\Unit\Character\Johanna</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkCircleExplosion.cpp">
+      <Filter>소스 파일\Unit\Character\Johanna</Filter>
+    </ClCompile>
+    <ClCompile Include="Heal.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="InvincibleEffect.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="mpRegion.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="blinkEffect.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BossDeathEffect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_Ending.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending_UI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pyramid.h">
+      <Filter>헤더 파일\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>헤더 파일\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="FVF.h">
+      <Filter>헤더 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryLeakCheck.h">
+      <Filter>헤더 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialTexture.h">
+      <Filter>헤더 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>헤더 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>헤더 파일\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>헤더 파일\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionBase.h">
+      <Filter>헤더 파일\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionMove.h">
+      <Filter>헤더 파일\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionSequence.h">
+      <Filter>헤더 파일\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Base.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Image.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Manager.h">
+      <Filter>헤더 파일\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Button.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Text.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Functions.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>헤더 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingVolume.h">
+      <Filter>헤더 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Quest.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestNode.h">
+      <Filter>헤더 파일\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Dijkstra.h">
+      <Filter>헤더 파일\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>헤더 파일\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PathNode.h">
+      <Filter>헤더 파일\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Barricade.h">
+      <Filter>헤더 파일\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinder.h">
+      <Filter>헤더 파일\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLoader.h">
+      <Filter>헤더 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="AseLoader.h">
+      <Filter>헤더 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="AseFrame.h">
+      <Filter>헤더 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Asciitok.h">
+      <Filter>헤더 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>헤더 파일\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomUtil.h">
+      <Filter>헤더 파일\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>헤더 파일\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>헤더 파일\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFileGroup.h">
+      <Filter>헤더 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>헤더 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>헤더 파일\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightMap.h">
+      <Filter>헤더 파일\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshManager.h">
+      <Filter>헤더 파일\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="AllocateHierarchy.h">
+      <Filter>헤더 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMesh.h">
+      <Filter>헤더 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumCulling.h">
+      <Filter>헤더 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle_Snow.h">
+      <Filter>헤더 파일\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>헤더 파일\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle_Base.h">
+      <Filter>헤더 파일\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle_Fireworks.h">
+      <Filter>헤더 파일\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="unit.h">
+      <Filter>헤더 파일\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_DX_Base.h">
+      <Filter>헤더 파일\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider_Box.h">
+      <Filter>헤더 파일\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider_Sphere.h">
+      <Filter>헤더 파일\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>헤더 파일\Unit\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_Stage3.h">
+      <Filter>헤더 파일\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_GameOver.h">
+      <Filter>헤더 파일\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_Opening.h">
+      <Filter>헤더 파일\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_Shop.h">
+      <Filter>헤더 파일\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_Stage1.h">
+      <Filter>헤더 파일\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_Stage2.h">
+      <Filter>헤더 파일\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>헤더 파일\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardManager.h">
+      <Filter>헤더 파일\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="jaina.h">
+      <Filter>헤더 파일\Unit\Character\Jaina</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>헤더 파일\Unit\Character\Jaina\SKill</Filter>
+    </ClInclude>
+    <ClInclude Include="IceFire.h">
+      <Filter>헤더 파일\Unit\Character\Jaina\SKill</Filter>
+    </ClInclude>
+    <ClInclude Include="IceMake.h">
+      <Filter>헤더 파일\Unit\Character\Jaina\SKill</Filter>
+    </ClInclude>
+    <ClInclude Include="Ice.h">
+      <Filter>헤더 파일\Unit\Character\Jaina\SKill</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillManager.h">
+      <Filter>헤더 파일\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionRotate.h">
+      <Filter>헤더 파일\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="IceWorld.h">
+      <Filter>헤더 파일\Unit\Character\Jaina\SKill</Filter>
+    </ClInclude>
+    <ClInclude Include="Nova.h">
+      <Filter>헤더 파일\Unit\Character\Nova</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillObject.h">
+      <Filter>헤더 파일\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>헤더 파일\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Billboard.h">
+      <Filter>헤더 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Marine.h">
+      <Filter>헤더 파일\Unit\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="cOBB.h">
+      <Filter>헤더 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="IceImpact.h">
+      <Filter>헤더 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="IceCircle.h">
+      <Filter>헤더 파일\Unit\Character\Jaina\SKill</Filter>
+    </ClInclude>
+    <ClInclude Include="IceCircleMagic.h">
+      <Filter>헤더 파일\Unit\Character\Jaina\SKill</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>헤더 파일\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>헤더 파일\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StructureObject.h">
+      <Filter>헤더 파일\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="johanna.h">
+      <Filter>헤더 파일\Unit\Character\Johanna</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>헤더 파일\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>헤더 파일\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="NuClear.h">
+      <Filter>헤더 파일\Unit\Character\Nova\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Phoenix.h">
+      <Filter>헤더 파일\Unit\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Phoenix_Circle.h">
+      <Filter>헤더 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Kealthas.h">
+      <Filter>헤더 파일\Unit\Boss\Kealthas</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBall.h">
+      <Filter>헤더 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBallFire.h">
+      <Filter>헤더 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="FireCircleExplosion.h">
+      <Filter>헤더 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarOfFire.h">
+      <Filter>헤더 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="FireCircle.h">
+      <Filter>헤더 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="FireCircleWorld.h">
+      <Filter>헤더 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Azmodan.h">
+      <Filter>소스 파일\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="HitSphereMake.h">
+      <Filter>헤더 파일\Unit\Character\Johanna\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="HitSphere.h">
+      <Filter>헤더 파일\Unit\Character\Johanna\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="FireArrow.h">
+      <Filter>소스 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="FireArrowWorld.h">
+      <Filter>소스 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire_Shield.h">
+      <Filter>소스 파일\Unit\Boss\Kealthas\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>헤더 파일\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="UsedItemTab.h">
+      <Filter>헤더 파일\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>헤더 파일\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="Score_UI.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ArtifactTab.h">
+      <Filter>헤더 파일\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillTab.h">
+      <Filter>헤더 파일\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="SupportSkillTap.h">
+      <Filter>헤더 파일\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="StateTab.h">
+      <Filter>헤더 파일\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeTab.h">
+      <Filter>헤더 파일\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="iniDataManager.h">
+      <Filter>헤더 파일\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>헤더 파일\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="minionHpBar.h">
+      <Filter>헤더 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Opening_UI.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="bossBar.h">
+      <Filter>헤더 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Burn.h">
+      <Filter>헤더 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_Select.h">
+      <Filter>헤더 파일\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Select_UI.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>헤더 파일\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_Loading1.h">
+      <Filter>헤더 파일\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Loading.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Interface.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="NuclearExplosion.h">
+      <Filter>헤더 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="VikingEnemy.h">
+      <Filter>헤더 파일\Unit\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="HammerBoss.h">
+      <Filter>헤더 파일\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="bigMissile.h">
+      <Filter>헤더 파일\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_Loading2.h">
+      <Filter>헤더 파일\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_Loading3.h">
+      <Filter>헤더 파일\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="CalcScore.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FireArrowEffect.h">
+      <Filter>헤더 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="IceEffect.h">
+      <Filter>헤더 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="characterDeath.h">
+      <Filter>헤더 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BossDeath.h">
+      <Filter>헤더 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Battlecruiser.h">
+      <Filter>소스 파일\Unit\Character\Nova\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleCruiserBoom.h">
+      <Filter>소스 파일\Unit\Character\Nova\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="NovaNomalAttack.h">
+      <Filter>소스 파일\Unit\Character\Nova\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkBall.h">
+      <Filter>소스 파일\Unit\Character\Johanna</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkBallFire.h">
+      <Filter>소스 파일\Unit\Character\Johanna</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkCircle.h">
+      <Filter>소스 파일\Unit\Character\Johanna</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkCircleExplosion.h">
+      <Filter>소스 파일\Unit\Character\Johanna</Filter>
+    </ClInclude>
+    <ClInclude Include="Heal.h">
+      <Filter>소스 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="InvincibleEffect.h">
+      <Filter>소스 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="mpRegion.h">
+      <Filter>소스 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="blinkEffect.h">
+      <Filter>소스 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BossDeathEffect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_Ending.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending_UI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

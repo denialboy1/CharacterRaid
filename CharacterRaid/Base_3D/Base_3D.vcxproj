@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DD142C1F-3EB0-4225-9A5E-6D7507384754}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Base_3D</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ActionMove.cpp" />
+    <ClCompile Include="ActionRotate.cpp" />
+    <ClCompile Include="ActionSequence.cpp" />
+    <ClCompile Include="AllocateHierarchy.cpp" />
+    <ClCompile Include="ArtifactTab.cpp" />
+    <ClCompile Include="AseLoader.cpp" />
+    <ClCompile Include="AStar.cpp" />
+    <ClCompile Include="Azmodan.cpp" />
+    <ClCompile Include="Battlecruiser.cpp" />
+    <ClCompile Include="BattleCruiserBoom.cpp" />
+    <ClCompile Include="bigMissile.cpp" />
+    <ClCompile Include="Billboard.cpp" />
+    <ClCompile Include="blinkEffect.cpp" />
+    <ClCompile Include="bossBar.cpp" />
+    <ClCompile Include="BossDeath.cpp" />
+    <ClCompile Include="BossDeathEffect.cpp" />
+    <ClCompile Include="Burn.cpp" />
+    <ClCompile Include="CalcScore.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="characterDeath.cpp" />
+    <ClCompile Include="cOBB.cpp" />
+    <ClCompile Include="Collider_Box.cpp" />
+    <ClCompile Include="Collider_Sphere.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="AseFrame.cpp" />
+    <ClCompile Include="DarkBall.cpp" />
+    <ClCompile Include="DarkBallFire.cpp" />
+    <ClCompile Include="DarkCircle.cpp" />
+    <ClCompile Include="DarkCircleExplosion.cpp" />
+    <ClCompile Include="Dijkstra.cpp" />
+    <ClCompile Include="Barricade.cpp" />
+    <ClCompile Include="EffectManager.cpp" />
+    <ClCompile Include="Ending_UI.cpp" />
+    <ClCompile Include="FireArrow.cpp" />
+    <ClCompile Include="FireArrowEffect.cpp" />
+    <ClCompile Include="FireArrowWorld.cpp" />
+    <ClCompile Include="FireBall.cpp" />
+    <ClCompile Include="FireBallFire.cpp" />
+    <ClCompile Include="FireCircle.cpp" />
+    <ClCompile Include="FireCircleExplosion.cpp" />
+    <ClCompile Include="FireCircleWorld.cpp" />
+    <ClCompile Include="Fire_Shield.cpp" />
+    <ClCompile Include="FrustumCulling.cpp" />
+    <ClCompile Include="GameStateManager.cpp" />
+    <ClCompile Include="GameState_DX_Base.cpp" />
+    <ClCompile Include="GameState_Ending.cpp" />
+    <ClCompile Include="GameState_GameOver.cpp" />
+    <ClCompile Include="GameState_Loading1.cpp" />
+    <ClCompile Include="GameState_Loading2.cpp" />
+    <ClCompile Include="GameState_Loading3.cpp" />
+    <ClCompile Include="GameState_Opening.cpp" />
+    <ClCompile Include="GameState_Select.cpp" />
+    <ClCompile Include="GameState_Shop.cpp" />
+    <ClCompile Include="GameState_Stage1.cpp" />
+    <ClCompile Include="GameState_Stage2.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="HammerBoss.cpp" />
+    <ClCompile Include="Heal.cpp" />
+    <ClCompile Include="HeightMap.cpp" />
+    <ClCompile Include="HitSphere.cpp" />
+    <ClCompile Include="HitSphereMake.cpp" />
+    <ClCompile Include="Ice.cpp" />
+    <ClCompile Include="IceCircle.cpp" />
+    <ClCompile Include="IceCircleMagic.cpp" />
+    <ClCompile Include="IceEffect.cpp" />
+    <ClCompile Include="IceFire.cpp" />
+    <ClCompile Include="IceImpact.cpp" />
+    <ClCompile Include="IceMake.cpp" />
+    <ClCompile Include="IceWorld.cpp" />
+    <ClCompile Include="iniDataManager.cpp" />
+    <ClCompile Include="InvincibleEffect.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="jaina.cpp" />
+    <ClCompile Include="johanna.cpp" />
+    <ClCompile Include="Kealthas.cpp" />
+    <ClCompile Include="KeyboardManager.cpp" />
+    <ClCompile Include="LifeTab.cpp" />
+    <ClCompile Include="loading.cpp" />
+    <ClCompile Include="Marine.cpp" />
+    <ClCompile Include="minionHpBar.cpp" />
+    <ClCompile Include="mpRegion.cpp" />
+    <ClCompile Include="Nova.cpp" />
+    <ClCompile Include="NovaNomalAttack.cpp" />
+    <ClCompile Include="NuClear.cpp" />
+    <ClCompile Include="NuclearExplosion.cpp" />
+    <ClCompile Include="Opening_UI.cpp" />
+    <ClCompile Include="Particle_Base.cpp" />
+    <ClCompile Include="Particle_Fireworks.cpp" />
+    <ClCompile Include="Particle_Snow.cpp" />
+    <ClCompile Include="PathFinder.cpp" />
+    <ClCompile Include="PathNode.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Obj.cpp" />
+    <ClCompile Include="ObjLoader.cpp" />
+    <ClCompile Include="ObjFileGroup.cpp" />
+    <ClCompile Include="Phoenix.cpp" />
+    <ClCompile Include="Phoenix_Circle.cpp" />
+    <ClCompile Include="PillarOfFire.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="Pyramid.cpp" />
+    <ClCompile Include="QuestNode.cpp" />
+    <ClCompile Include="RandomUtil.cpp" />
+    <ClCompile Include="Ray.cpp" />
+    <ClCompile Include="Score_UI.cpp" />
+    <ClCompile Include="Select_UI.cpp" />
+    <ClCompile Include="Shop.cpp" />
+    <ClCompile Include="SkillManager.cpp" />
+    <ClCompile Include="SkillObject.cpp" />
+    <ClCompile Include="SkillTab.cpp" />
+    <ClCompile Include="SkinnedMesh.cpp" />
+    <ClCompile Include="SkinnedMeshManager.cpp" />
+    <ClCompile Include="GameState_Stage3.cpp" />
+    <ClCompile Include="soundManager.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="Stage1.cpp" />
+    <ClCompile Include="Stage2.cpp" />
+    <ClCompile Include="Stage3.cpp" />
+    <ClCompile Include="StateTab.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StructureObject.cpp" />
+    <ClCompile Include="SupportSkillTap.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="UI_Base.cpp" />
+    <ClCompile Include="UI_Button.cpp" />
+    <ClCompile Include="UI_Functions.cpp" />
+    <ClCompile Include="UI_Image.cpp" />
+    <ClCompile Include="UI_Interface.cpp" />
+    <ClCompile Include="UI_Loading.cpp" />
+    <ClCompile Include="UI_Manager.cpp" />
+    <ClCompile Include="UI_Quest.cpp" />
+    <ClCompile Include="UI_Text.cpp" />
+    <ClCompile Include="unit.cpp" />
+    <ClCompile Include="UsedItemTab.cpp" />
+    <ClCompile Include="VikingEnemy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionBase.h" />
+    <ClInclude Include="ActionMove.h" />
+    <ClInclude Include="ActionRotate.h" />
+    <ClInclude Include="ActionSequence.h" />
+    <ClInclude Include="AllocateHierarchy.h" />
+    <ClInclude Include="ArtifactTab.h" />
+    <ClInclude Include="Asciitok.h" />
+    <ClInclude Include="AseLoader.h" />
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="Azmodan.h" />
+    <ClInclude Include="Battlecruiser.h" />
+    <ClInclude Include="BattleCruiserBoom.h" />
+    <ClInclude Include="bigMissile.h" />
+    <ClInclude Include="Billboard.h" />
+    <ClInclude Include="blinkEffect.h" />
+    <ClInclude Include="bossBar.h" />
+    <ClInclude Include="BossDeath.h" />
+    <ClInclude Include="BossDeathEffect.h" />
+    <ClInclude Include="BoundingVolume.h" />
+    <ClInclude Include="Burn.h" />
+    <ClInclude Include="CalcScore.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="characterDeath.h" />
+    <ClInclude Include="cOBB.h" />
+    <ClInclude Include="Collider_Box.h" />
+    <ClInclude Include="Collider_Sphere.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="AseFrame.h" />
+    <ClInclude Include="DarkBall.h" />
+    <ClInclude Include="DarkBallFire.h" />
+    <ClInclude Include="DarkCircle.h" />
+    <ClInclude Include="DarkCircleExplosion.h" />
+    <ClInclude Include="Dijkstra.h" />
+    <ClInclude Include="Barricade.h" />
+    <ClInclude Include="EffectManager.h" />
+    <ClInclude Include="Ending_UI.h" />
+    <ClInclude Include="FireArrow.h" />
+    <ClInclude Include="FireArrowEffect.h" />
+    <ClInclude Include="FireArrowWorld.h" />
+    <ClInclude Include="FireBall.h" />
+    <ClInclude Include="FireBallFire.h" />
+    <ClInclude Include="FireCircle.h" />
+    <ClInclude Include="FireCircleExplosion.h" />
+    <ClInclude Include="FireCircleWorld.h" />
+    <ClInclude Include="Fire_Shield.h" />
+    <ClInclude Include="FrustumCulling.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GameStateManager.h" />
+    <ClInclude Include="GameState_DX_Base.h" />
+    <ClInclude Include="GameState_Ending.h" />
+    <ClInclude Include="GameState_GameOver.h" />
+    <ClInclude Include="GameState_Loading1.h" />
+    <ClInclude Include="GameState_Loading2.h" />
+    <ClInclude Include="GameState_Loading3.h" />
+    <ClInclude Include="GameState_Opening.h" />
+    <ClInclude Include="GameState_Select.h" />
+    <ClInclude Include="GameState_Shop.h" />
+    <ClInclude Include="GameState_Stage1.h" />
+    <ClInclude Include="GameState_Stage2.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="HammerBoss.h" />
+    <ClInclude Include="Heal.h" />
+    <ClInclude Include="HeightMap.h" />
+    <ClInclude Include="HitSphere.h" />
+    <ClInclude Include="HitSphereMake.h" />
+    <ClInclude Include="Ice.h" />
+    <ClInclude Include="IceCircle.h" />
+    <ClInclude Include="IceCircleMagic.h" />
+    <ClInclude Include="IceEffect.h" />
+    <ClInclude Include="IceFire.h" />
+    <ClInclude Include="IceImpact.h" />
+    <ClInclude Include="IceMake.h" />
+    <ClInclude Include="IceWorld.h" />
+    <ClInclude Include="iniDataManager.h" />
+    <ClInclude Include="InvincibleEffect.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="jaina.h" />
+    <ClInclude Include="johanna.h" />
+    <ClInclude Include="Kealthas.h" />
+    <ClInclude Include="KeyboardManager.h" />
+    <ClInclude Include="LifeTab.h" />
+    <ClInclude Include="loading.h" />
+    <ClInclude Include="Marine.h" />
+    <ClInclude Include="minionHpBar.h" />
+    <ClInclude Include="mpRegion.h" />
+    <ClInclude Include="Nova.h" />
+    <ClInclude Include="NovaNomalAttack.h" />
+    <ClInclude Include="NuClear.h" />
+    <ClInclude Include="NuclearExplosion.h" />
+    <ClInclude Include="Opening_UI.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="Particle_Base.h" />
+    <ClInclude Include="Particle_Fireworks.h" />
+    <ClInclude Include="Particle_Snow.h" />
+    <ClInclude Include="PathFinder.h" />
+    <ClInclude Include="PathNode.h" />
+    <ClInclude Include="FVF.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="MaterialTexture.h" />
+    <ClInclude Include="MemoryLeakCheck.h" />
+    <ClInclude Include="Obj.h" />
+    <ClInclude Include="ObjLoader.h" />
+    <ClInclude Include="ObjFileGroup.h" />
+    <ClInclude Include="Phoenix.h" />
+    <ClInclude Include="Phoenix_Circle.h" />
+    <ClInclude Include="PillarOfFire.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="Pyramid.h" />
+    <ClInclude Include="QuestNode.h" />
+    <ClInclude Include="RandomUtil.h" />
+    <ClInclude Include="Ray.h" />
+    <ClInclude Include="Score_UI.h" />
+    <ClInclude Include="Select_UI.h" />
+    <ClInclude Include="Shop.h" />
+    <ClInclude Include="Skill.h" />
+    <ClInclude Include="SkillManager.h" />
+    <ClInclude Include="SkillObject.h" />
+    <ClInclude Include="SkillTab.h" />
+    <ClInclude Include="SkinnedMesh.h" />
+    <ClInclude Include="SkinnedMeshManager.h" />
+    <ClInclude Include="GameState_Stage3.h" />
+    <ClInclude Include="soundManager.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="Stage1.h" />
+    <ClInclude Include="Stage2.h" />
+    <ClInclude Include="Stage3.h" />
+    <ClInclude Include="StateTab.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StructureObject.h" />
+    <ClInclude Include="SupportSkillTap.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="UI_Base.h" />
+    <ClInclude Include="UI_Button.h" />
+    <ClInclude Include="UI_Functions.h" />
+    <ClInclude Include="UI_Image.h" />
+    <ClInclude Include="UI_Interface.h" />
+    <ClInclude Include="UI_Loading.h" />
+    <ClInclude Include="UI_Manager.h" />
+    <ClInclude Include="UI_Quest.h" />
+    <ClInclude Include="UI_Text.h" />
+    <ClInclude Include="unit.h" />
+    <ClInclude Include="UsedItemTab.h" />
+    <ClInclude Include="VikingEnemy.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
